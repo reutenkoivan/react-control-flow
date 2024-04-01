@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/github/license/reutenkoivan/react-control-flow)](https://github.com/reutenkoivan/react-control-flow/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/@react-control/flow)](https://www.npmjs.com/package/@react-control/flow)
 [![JSR](https://jsr.io/badges/@react-control/flow)](https://jsr.io/@react-control/flow)
-[![Open](https://img.shields.io/github/issues/reutenkoivan/react-control-flow.svg)](https://github.com/reutenkoivan/react-control-flow/issues)
+[![open issues](https://img.shields.io/github/issues/reutenkoivan/react-control-flow.svg)](https://github.com/reutenkoivan/react-control-flow/issues)
 
 - [Installation](#installation)
 - [Provided components](#provided-components)
