@@ -1,2 +1,2 @@
 export { SwitchMap } from './SwitchMap.tsx'
-export type { SwitchProps } from './SwitchMap.tsx'
+export type { SwitchMapProps } from './SwitchMap.tsx'

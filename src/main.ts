@@ -4,4 +4,4 @@ export { SwitchMap } from './SwitchMap'
 
 export type { ForProps } from './For'
 export type { ShowProps } from './Show'
-export type { SwitchProps } from './SwitchMap'
+export type { SwitchMapProps } from './SwitchMap'
