@@ -3,7 +3,7 @@
 	"author": "Ivan Reutenko",
 	"description": "React components for extend jsx syntax.",
 	"license": "MIT",
-	"version": "1.0.0-alpha.1",
+	"version": "1.0.0-alpha.2",
 	"type": "module",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
@@ -34,5 +34,10 @@
 		"typescript": "^5.2.2",
 		"vite": "^5.2.0",
 		"vite-plugin-dts": "^3.8.1"
-	}
+	},
+  "homepage": "https://reutenkoivan.github.io/react-control-flow/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reutenkoivan/react-control-flow.git"
+  }
 }
