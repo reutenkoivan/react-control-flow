@@ -1,4 +1,4 @@
-# react-extend-jsx [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://stand-with-ukraine.pp.ua)
+# @react-control/flow [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://stand-with-ukraine.pp.ua)
 
 - [Installation](#installation)
 - [Provided components](#provided-components)
@@ -9,15 +9,15 @@
 ## Installation:
 
 ```bash
-npm add react-extend-jsx
+npm add @react-control/flow
 ```
 
 ```bash
-yarn add react-extend-jsx
+yarn add @react-control/flow
 ```
 
 ```bash
-bun add react-extend-jsx
+bun add @react-control/flow
 ```
 
 ## Provided components:
