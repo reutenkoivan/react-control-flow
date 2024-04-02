@@ -13,7 +13,7 @@ export type ForProps<T> = {
 	}
 }
 
-const ForComponent = <T,>({ children, of, keyMapper, loading = false, slots = {} }: ForProps<T>): ReactNode => {
+const ForComponent = <T,>({ children, of, keyMapper, loading = false, slots = {} }: ForProps<T>): ReactNode | ReactNode[] => {
 	if (loading && slots.loading) {
 		return slots.loading
 	}
@@ -27,15 +27,13 @@ const ForComponent = <T,>({ children, of, keyMapper, loading = false, slots = {}
 	}
 
 	return (
-		<Fragment>
-			{Children.toArray(
-				of.map((item, index) => {
-					const key = keyMapper?.(item, index) ?? index
+    Children.toArray(
+      of.map((item, index) => {
+        const key = keyMapper?.(item, index) ?? index
 
-					return <Fragment key={key}>{children(item, index)}</Fragment>
-				}),
-			)}
-		</Fragment>
+        return <Fragment key={key}>{children(item, index)}</Fragment>
+      }),
+    )
 	)
 }
 
