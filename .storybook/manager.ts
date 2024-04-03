@@ -5,7 +5,7 @@ import packageJson from '../package.json' assert { type: 'json' }
 const theme = create({
 	base: 'light',
 	brandTitle: packageJson.name,
-	brandImage: process.env.CI ? '/react-control-flow/banner.png' : '/banner.png',
+	brandImage: process.env.NODE_ENV === 'production' ? '/react-control-flow/banner.png' : '/banner.png',
 })
 
 addons.setConfig({ theme })
