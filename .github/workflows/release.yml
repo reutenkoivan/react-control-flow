@@ -26,6 +26,8 @@ jobs:
       run: bun i
 
     - name: Build
+      env:
+        PUBLIC_URL: "${{github.event.repository.name}}"
       run: bun storybook:build
 
     - name: Deploy
