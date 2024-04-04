@@ -1,4 +1,4 @@
-name: "Release pipeline"
+name: "Release"
 env:
   FORCE_COLOR: '1'
 on:
