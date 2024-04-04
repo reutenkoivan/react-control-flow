@@ -8,6 +8,7 @@ export type ForProps<T> = {
     loading?: boolean;
     slots?: {
         loading?: ReactNode | ReactNode[];
+        fallback?: ReactNode | ReactNode[];
         empty?: ReactNode | ReactNode[];
     };
 };
