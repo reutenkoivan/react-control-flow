@@ -32,7 +32,7 @@ export const ServerResponse = () => {
 	// Outside the component
 	type User = { id: number; name: string; age: number }
 	const keyMapper = (user: User) => user.id
-	const slots: ForProps<User>['slots'] = { empty: 'No results', loading: 'Loading...' }
+	const slots: ForProps<User>['slots'] = { empty: 'No results', loading: 'Loading...', fallback: 'Initial state' }
 
 	// Inside the component
 	const [isLoading, setIsLoading] = useState(false)

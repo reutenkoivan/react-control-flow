@@ -9,6 +9,7 @@ export type ForProps<T> = {
 	loading?: boolean
 	slots?: {
 		loading?: ReactNode | ReactNode[]
+    fallback?: ReactNode | ReactNode[]
 		empty?: ReactNode | ReactNode[]
 	}
 }
@@ -19,7 +20,7 @@ const ForComponent = <T,>({ children, of, keyMapper, loading = false, slots = {}
 	}
 
 	if (!of) {
-		return null
+		return slots.fallback ?? null
 	}
 
 	if (!of.length && slots.empty) {

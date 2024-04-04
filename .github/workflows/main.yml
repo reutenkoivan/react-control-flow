@@ -1,4 +1,4 @@
-name: "Stable environment pipeline"
+name: "Stable environment"
 env:
   FORCE_COLOR: '1'
 on:
