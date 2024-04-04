@@ -1,4 +1,4 @@
-# @react-control/flow [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://stand-with-ukraine.pp.ua)
+# [@react-control/flow](https://reutenkoivan.github.io/react-control-flow/) [![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://stand-with-ukraine.pp.ua)
 
 [![MIT License](https://img.shields.io/github/license/reutenkoivan/react-control-flow)](https://github.com/reutenkoivan/react-control-flow/blob/main/LICENSE)
 [![npm](https://img.shields.io/npm/v/@react-control/flow)](https://www.npmjs.com/package/@react-control/flow)
